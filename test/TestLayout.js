@@ -17,7 +17,7 @@ export default class TestLayout extends React.Component<{}, {width: number, heig
   render() {
     return (
       <div>
-        <button onClick={this.onClick} style={{'marginBottom': '10px'}}>Reset first element's width/height</button>
+        <button onClick={this.onClick} style={{'marginBottom': '10px'}}>Reset first elements width/height</button>
         <div className="layoutRoot">
           <Resizable className="box" height={this.state.height} width={this.state.width} onResize={this.onResize}>
             <div className="box" style={{width: this.state.width + 'px', height: this.state.height + 'px'}}>
