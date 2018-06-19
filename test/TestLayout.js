@@ -45,7 +45,7 @@ export default class TestLayout extends React.Component<{}, {width: number, heig
           <ResizableBox className="box" width={200} height={200} axis="x">
             <span className="text">Only resizable by "x" axis.</span>
           </ResizableBox>
-          <ResizableBox className="box" width={200} height={200} axis="y">
+          <ResizableBox className="box" width="100%" height={200} axis="y">
             <span className="text">Only resizable by "y" axis.</span>
           </ResizableBox>
           <ResizableBox className="box" width={200} height={200} axis="both">
