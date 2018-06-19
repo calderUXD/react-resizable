@@ -1,7 +1,7 @@
 {
-  "name": "react-resizable",
+  "name": "react-resizable-r",
   "version": "1.7.5",
-  "description": "A component that is resizable with handles.",
+  "description": "A component that is resizable with handles. fork of react-resizable",
   "main": "index.js",
   "scripts": {
     "lint": "eslint --ext .js,.jsx lib/ test/; flow",
@@ -19,19 +19,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:STRML/react-resizable.git"
+    "url": "git@github.com:calderUXD/react-resizable.git"
   },
   "keywords": [
     "react",
     "resize",
     "resizable"
   ],
-  "author": "Samuel Reed <samuel.trace.reed@gmail.com> (http://strml.net/)",
+  "author": "Rusty Calder <rusty@tinkrlabs.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/STRML/react-resizable/issues"
+    "url": "https://github.com/calderUXD/react-resizable/issues"
   },
-  "homepage": "https://github.com/STRML/react-resizable",
+  "homepage": "https://github.com/calderUXD/react-resizable",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
